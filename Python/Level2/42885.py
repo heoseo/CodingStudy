@@ -18,6 +18,8 @@ def solution(people, limit):
 
     print("top", top)
 
+
+
     while bottom <= top:
         if people[bottom] + people[top] <= limit:
             bottom += 1
