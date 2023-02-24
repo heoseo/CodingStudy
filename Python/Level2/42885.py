@@ -1,3 +1,6 @@
+# lv2-구명보트
+# https://school.programmers.co.kr/learn/courses/30/lessons/42885
+
 people = [60, 40, 60, 40]
 limit = 100
 
