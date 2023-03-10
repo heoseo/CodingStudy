@@ -21,5 +21,16 @@ print('apeach' in cnt)
 # print(cnt[a])
 
 
-list = []
+print("abc")
+print('abc')
+
+text1 = "abc"
+text2 = 'abc'
+
+list = [[0] * 2 for i in range(3)]
 print(list)
+
+print( 7 % 4)
+
+print(text1[1])
+print(text1.index('b'))
