@@ -34,3 +34,14 @@ print( 7 % 4)
 
 print(text1[1])
 print(text1.index('b'))
+
+import dateutil
+from datetime import datetime
+from dateutil.relativedelta import relativedelta
+
+s = "2011.11.11"
+d = datetime.strptime(s, '%Y.%m.%d').date()
+print(type(d))
+after = d+relativedelta(months=5)
+print(after)
+print(d < after)
